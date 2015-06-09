@@ -27,7 +27,7 @@ function search(error) {
 module.exports = function(err, raw) {
   var item = search(raw);
 
-  if (err) {
+  if (item) {
     err.message += '\n\n Check this out: '.red + item + '\n\n';
   }
 
