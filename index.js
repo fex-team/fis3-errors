@@ -8,6 +8,7 @@ function startWidth(str, search) {
 function search(error) {
   var found = null;
 
+  error = error + '';
   if (config[error]) {
     return config[error];
   }

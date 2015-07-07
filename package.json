@@ -1,6 +1,6 @@
 {
   "name": "fis3-errors",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Translate fis3 errors.",
   "main": "index.js",
   "scripts": {
